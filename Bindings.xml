@@ -1,0 +1,26 @@
+<Bindings>
+	<Binding name="Stack" header="MRPLOW">
+		MrPlow:ParseInventory()
+	</Binding>
+	<Binding name="Plow">
+		MrPlow:Defrag()
+	</Binding>
+	<Binding name="Sort">
+		MrPlow:Sort()
+	</Binding>
+	<Binding name="The Works">
+		MrPlow:Works()
+	</Binding>
+	<Binding name="Bank - Plow">
+		MrPlow:Defrag("Bank")
+	</Binding>
+	<Binding name="Bank - Sort">
+		MrPlow:Sort("Bank")
+	</Binding>
+	<Binding name="Bank - The Works">
+		MrPlow:Works("Bank")
+	</Binding>
+	<Binding name="Bank Stack">
+		MrPlow:BankStack()
+	</Binding>
+</Bindings>
